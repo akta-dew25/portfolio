@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+.ant-menu-item-selected{
+  background-color: #001529 !important;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ant-btn:hover{
+  background-color: #eab308 !important;
+  border-color: #eab308 !important;
+  color:#000 !important
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ant-input-outlined{
+  background-color: #1F2937;
+  border: none;
+  color: #fff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.ant-input-outlined:hover{
+  background-color: #1F2937;  
+  border: none;
+  background:#1F2937 !important ;
+
+
+}
+
+
+.custom-placeholder::placeholder {
+  color: #F3F4F6; /* Tailwind's gray-400 color */
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.ant-input-outlined:focus{
+  background-color: #1F2937;
+  border: none;
+
+
+}
+
+.content-body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+.content-body::-webkit-scrollbar {
+  width: 0.6em;
+  display: none;
+  background-color: #ffffff;
+}
+
+.content-body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #c6c6c6;
+}
+
+.custom-placeholder.ant-input-outlined.ant-input-status-succes{
+  background-color: #1F2937;
+
+}
+
+.ant-card .ant-card-meta-description{
+color: white;
+font-weight: 600;
+font-size: 15px;
+}
+
+.ant-card .ant-card-meta-title{
   color: white;
+  font-size: 18px;
 }
 
-.App-link {
-  color: #61dafb;
+.ant-menu .ant-menu-title-content{
+  font-size: 16px;
+  font-weight: 500;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ant-menu-dark .ant-menu-item-selected a{
+  color: rgb(234 179 8);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.ant-menu-dark .ant-menu-item-selected a:hover{
+  color: yellow;
+  font-size: 20px;
+  font-weight: 700;
 }
